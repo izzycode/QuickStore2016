@@ -76,10 +76,15 @@
       </div><!--/row-->
 
       <footer>
-        <p>&copy; Company 2016</p>
+        <p>&copy; IzzyCode 2016</p>
       </footer>
 
     </div> <!-- /container -->
+
+    <% if Rails.env.development? %>
+      <%= console %>
+    <%end%>
+
 
   </body>
 </html>
